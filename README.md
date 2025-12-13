@@ -14,7 +14,7 @@ This project was meant to be used with [this](https://github.com/RichardVirgosky
 - Install VRCFury using the VRC Creator Companion or Unity Package
 - Install the newest version of [Poiyomi shaders](https://github.com/poiyomi/PoiyomiToonShader/releases)
 - Make sure your avatar has at least 8 synced bits free in its parameters
-- Install the unity package for this project (found in the releases page) or by clicking [here](https://github.com/32294/VRChat_Heart_Rate_Monitor_Prefab_Quest_Compatible/releases/download/2.0.0/heartrate_monitor_2_0_0.unitypackage) 
+- Install the unity package for this project (found in the releases page) or by clicking [here](https://github.com/32294/VRChat_Heart_Rate_Monitor_Prefab_Quest_Compatible/releases/download/2.0.1/heartrate_monitor_2_0_1.unitypackage) 
 - Place the configurator prefab (`Assets\32294\heartrate_monitor\(ADD ME) Configure Monitor.prefab`) on your avatar
 - Select the relevant options you want in the `Heart Rate Monitor Settings` script and click `Configure` to get a prefab with those options
 - If you wish to have sound, use the `Heart Rate Sound Object` script as well and place the prefab it provides where you want the source of the sound to be.
