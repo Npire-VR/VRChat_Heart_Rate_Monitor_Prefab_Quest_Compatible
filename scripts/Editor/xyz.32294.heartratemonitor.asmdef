@@ -1,0 +1,16 @@
+{
+    "name": "xyz.32294.heartrate_monitor",
+    "rootNamespace": "xyz.32294.heartrate_monitor",
+    "references": [
+        "GUID:cd59bf9231294ffab8427690942c6a35"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
