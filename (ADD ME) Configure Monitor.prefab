@@ -47,8 +47,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: 0
   color: {r: 1, g: 1, b: 1, a: 1}
-  colorOutline: {r: 1, g: 1, b: 1, a: 1}
-  colorMonitor: {r: 1, g: 1, b: 1, a: 1}
+  colorOutline: {r: 0, g: 0, b: 0, a: 1}
+  colorMonitor: {r: 1, g: 0.298, b: 0.298, a: 1}
   colorMonitorOff: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   gradient:
     serializedVersion: 2
@@ -296,7 +296,7 @@ MonoBehaviour:
   cycleSpeedMonitorOff: 60
   style: 0
   font: 0
-  colorType: 1
+  colorType: 0
   colorTypeOutline: 0
   colorTypeMonitor: 0
   colorTypeMonitorOff: 0
