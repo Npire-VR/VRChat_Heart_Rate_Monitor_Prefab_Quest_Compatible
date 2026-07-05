@@ -15,8 +15,8 @@ public class HeartRateMonitorSettings : MonoBehaviour
     
     // & color fields
     public Color color = Color.white;
-    public Color colorOutline = Color.white;
-    public Color colorMonitor = Color.white;
+    public Color colorOutline = Color.black;
+    public Color colorMonitor = new Color(1f, 0.298f, 0.298f);
     public Color colorMonitorOff = new Color(0.5f, 0.5f, 0.5f);
     
     public Gradient gradient = new Gradient();
@@ -38,7 +38,7 @@ public class HeartRateMonitorSettings : MonoBehaviour
     // & monitor style options
     public StyleOption style = StyleOption.Text;
     public FontOption font = FontOption.Default;
-    public ColorOption colorType = ColorOption.GradientByHeartrate;
+    public ColorOption colorType = ColorOption.SolidColor;
     public ColorOptionOutline colorTypeOutline = ColorOptionOutline.SolidColor;
     public ColorOptionMonitor colorTypeMonitor = ColorOptionMonitor.SolidColor;
     public ColorOptionMonitorOff colorTypeMonitorOff = ColorOptionMonitorOff.SolidColor;
@@ -60,6 +60,7 @@ public class HeartRateMonitorSettings : MonoBehaviour
         Heart,
         ScreenHeart,
         ScreenSquare,
+        // ScreenFish,
         HUD
     }
     public enum ColorOption

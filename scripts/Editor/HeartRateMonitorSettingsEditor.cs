@@ -72,8 +72,7 @@ public class HeartRateMonitorSettingsEditor : Editor
         
         // ? show monitor color if necessary
         if (script.style == HeartRateMonitorSettings.StyleOption.Heart ||
-            script.style == HeartRateMonitorSettings.StyleOption.ScreenHeart ||  
-            script.style == HeartRateMonitorSettings.StyleOption.ScreenSquare ||
+            script.style.ToString().StartsWith("Screen") ||  
             script.style == HeartRateMonitorSettings.StyleOption.HUD)
         {
             // ^ monitor color while on
@@ -248,8 +247,7 @@ public class HeartRateMonitorSettingsEditor : Editor
         // ? generate for Monitor if needed
         AnimatorController generatedMonitorFXController = new AnimatorController();
         if (script.style == HeartRateMonitorSettings.StyleOption.Heart ||
-            script.style == HeartRateMonitorSettings.StyleOption.ScreenHeart ||
-            script.style == HeartRateMonitorSettings.StyleOption.ScreenSquare ||
+            script.style.ToString().StartsWith("Screen") ||
             script.style == HeartRateMonitorSettings.StyleOption.HUD)
         {
             dynamic generatedMonitorMotion = new AnimationClip();
@@ -352,8 +350,7 @@ public class HeartRateMonitorSettingsEditor : Editor
         
         // ~ load monitor body if need be
         if (script.style == HeartRateMonitorSettings.StyleOption.Heart ||
-            script.style == HeartRateMonitorSettings.StyleOption.ScreenHeart ||
-            script.style == HeartRateMonitorSettings.StyleOption.ScreenSquare ||
+            script.style.ToString().StartsWith("Screen") ||
             script.style == HeartRateMonitorSettings.StyleOption.HUD)
         {
 
@@ -384,8 +381,7 @@ public class HeartRateMonitorSettingsEditor : Editor
             }
             
             // ? load extra fx for screen if needed
-            if (script.style == HeartRateMonitorSettings.StyleOption.ScreenHeart ||
-                script.style == HeartRateMonitorSettings.StyleOption.ScreenSquare)
+            if (script.style.ToString().StartsWith("Screen"))
             {
                 AnimatorController screenFX;
                 if (script.autoTurnOff)

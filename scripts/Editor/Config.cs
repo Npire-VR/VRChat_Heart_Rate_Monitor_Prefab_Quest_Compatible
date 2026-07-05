@@ -49,6 +49,7 @@ public class Config
         {"Heart", "text/hrm_t_"},
         {"ScreenHeart", "text/hrm_t_"},
         {"ScreenSquare", "text/hrm_t_"},
+        // {"ScreenFish", "text/hrm_t_"},
         {"HUD", "hud_text/hrm_ht_"},
     };    
 
@@ -66,6 +67,7 @@ public class Config
         {"Heart", "hrm_m_heart"},
         {"ScreenHeart", "hrm_m_screen_heart"},
         {"ScreenSquare", "hrm_m_screen_square"},
+        // {"ScreenFish", "hrm_m_screen_fish"},
         {"HUD", "hrm_m_hud"},
     };    
     
